@@ -1,0 +1,29 @@
+---
+abstract: 'An easy way to use Log::Any in applications'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  File::Slurp: 0
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Log-Any-App09
+requires:
+  File::HomeDir: 0
+  File::Path: 2.07
+  JSON: 0
+  Log::Any::Adapter::Log4perl: 0
+  Log::Dispatch::Dir: 0.08
+  Log::Dispatch::FileWriteRotate: 0
+  Log::Dispatch::Syslog: 0
+  perl: 5.008000
+resources:
+  homepage: http://search.cpan.org/dist/Log-Any-App09
+  repository: http://github.com/sharyanto/perl-Log-Any-App09
+version: 0.40.9.0
