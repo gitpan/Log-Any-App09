@@ -2,7 +2,7 @@ NAME
     Log::Any::App09 - An easy way to use Log::Any in applications
 
 VERSION
-    version 0.41.9.0
+    version 0.410.9.0
 
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
