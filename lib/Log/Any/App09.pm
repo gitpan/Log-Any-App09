@@ -1,6 +1,11 @@
 package Log::Any::App09;
-our $VERSION = '0.410.9.0'; # VERSION
-use Log::Any::App;
+our $VERSION = '0.410.9.1'; # VERSION
+require Log::Any::App;
+die "We don't have the correct version of Log::Any::App ".
+    "($Log::Any::App09::VERSION vs $Log::Any::App::VERSION), ".
+    "please reinstall Log-Any-App09\n"
+    unless $Log::Any::App::VERSION eq $Log::Any::App09::VERSION;
+
 1;
 # ABSTRACT: An easy way to use Log::Any in applications
 
@@ -13,7 +18,7 @@ Log::Any::App09 - An easy way to use Log::Any in applications
 
 =head1 VERSION
 
-version 0.410.9.0
+version 0.410.9.1
 
 =head1 AUTHOR
 

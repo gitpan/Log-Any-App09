@@ -29,4 +29,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Log-Any-App09
   repository: http://github.com/sharyanto/perl-Log-Any-App09
-version: 0.410.9.0
+version: 0.410.9.1
