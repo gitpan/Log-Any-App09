@@ -1,5 +1,5 @@
 package Log::Any::App09;
-our $VERSION = '0.40.9.0'; # VERSION
+our $VERSION = '0.41.9.0'; # VERSION
 use Log::Any::App;
 1;
 # ABSTRACT: An easy way to use Log::Any in applications
@@ -13,7 +13,7 @@ Log::Any::App09 - An easy way to use Log::Any in applications
 
 =head1 VERSION
 
-version 0.40.9.0
+version 0.41.9.0
 
 =head1 AUTHOR
 
